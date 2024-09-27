@@ -1,0 +1,14 @@
+
+* What is reason
+
+Reason is a way to simplify userspace drivers for peripherals like keyboards and mice.
+
+* How to interface with reason
+
+The main way to interface with reason as a control app is through DBus
+
+* Use case
+
+Several apps interface with peripherals in their own way, like openrgb and libratbag or ckbnext, but conflict when being used together; If we were able to standardize the way we control these devices and let them work at the same time we wold be able to have a coherent RGB light show thanks to openrgb and the ability to remap buttons with libratbag and ckbnext.
+
+#  LocalWords:  libratbag ckbnext RGB openrgb DBus userspace

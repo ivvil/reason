@@ -1,0 +1,17 @@
+
+* Driver specification
+
+Drivers will need to perform 3 separate functions:
+
+** Device detection
+
+A way to figure out if the driver supports controlling the device
+
+** Provide device information
+
+Some display information such as a device name and make
+
+** Device control
+
+Technical information for the device, and ways to control it
+
